@@ -1,0 +1,53 @@
+div{
+
+border : 1px solid black;
+}
+
+div.main-container{
+
+   padding: 20px 10px 10px 10px;
+   background-color: azure;
+   
+
+}
+div.header{
+
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+div.main-content{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 15px;
+
+    
+}
+
+div.main-content div.slide-bar{
+
+
+    float: left;
+    height: 100px;
+    width: calc(50%-4px);
+}
+
+div.main-content div.content{
+
+
+    float: right;
+    height: 100px;
+    width: calc(50%-4px);
+    position: fixed;
+}
+div.footer{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    
+
+}
